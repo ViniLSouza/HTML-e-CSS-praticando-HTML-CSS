@@ -131,7 +131,7 @@ body {
     display: flex;
     justify-content: center;
     list-style-type: none;
-margin-bottom: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 .lista__link a{
@@ -140,8 +140,17 @@ margin-bottom: 1.5em;
     margin-left: 1em;
 }
 
+.lista__link a:hover {
+    color: #167BF7;
+}
+
 .rodape__texto {
     color: var(--cinza-secundaria);
     margin: 1em;
     font-size: 14px;
+}
+
+.container__botao:hover {
+    background-color: aquamarine;
+    color: #00030C;
 }
